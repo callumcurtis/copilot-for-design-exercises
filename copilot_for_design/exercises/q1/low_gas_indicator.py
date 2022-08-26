@@ -1,4 +1,4 @@
-from question_1.gas_tank import GasTank
+from copilot_for_design.exercises.q1.gas_tank import GasTank
 
 
 class LowGasIndicator:

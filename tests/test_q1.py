@@ -1,17 +1,10 @@
-"""
-Tests the participant's solution to question 1
-
-Note that these tests are provided here for illustrative purposes only and would not
-be provided to participants during the study.
-"""
-
 import pytest
 
-from question_1.gas_tank import GasTank
-from question_1.low_gas_indicator import LowGasIndicator
+from copilot_for_design.exercises.q1.gas_tank import GasTank
+from copilot_for_design.exercises.q1.low_gas_indicator import LowGasIndicator
 
 
-class Test:
+class TestQ1:
     INITIAL_TANK_FILL = 50
 
     @pytest.fixture()
