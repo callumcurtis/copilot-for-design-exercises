@@ -2,7 +2,7 @@ package copilot_for_design.exercises.q2;
 
 /**
  * Represents a third-party library that helps your application simulate robots.
- * Methods in this library accept metric units.
+ * Methods in this library accept metric units. Do not modify this class.
  */
 public class ThirdPartyLibrary {
     /**
@@ -22,6 +22,6 @@ public class ThirdPartyLibrary {
      */
     public float calculateCurrentSpeed() {
         // calculate the current speed in m/s...
-        return (float) 8.37;
+        return (float) Math.random() * 10;
     }
 }

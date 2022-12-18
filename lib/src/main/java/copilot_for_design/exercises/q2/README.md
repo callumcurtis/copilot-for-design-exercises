@@ -10,4 +10,4 @@ You must not alter any code in [`ThirdPartyLibrary.java`](ThirdPartyLibrary.java
 
 ## Criteria
 
-After your changes, [`SimulationController.java`](SimulationController.java) should provide/recieve values with appropriate units to/from [`ThirdPartyLibrary.java`](ThirdPartyLibrary.java), and [`SimulationController.java`](SimulationController.java) should supply `Pair` instances to its interface (in reality, through the  adapter's interface).
+Complete the TODO comments in [`SimulationController.java`](SimulationController.java). After your changes, [`SimulationController.java`](SimulationController.java) should provide/recieve values with appropriate units to/from [`ThirdPartyLibrary.java`](ThirdPartyLibrary.java), and [`SimulationController.java`](SimulationController.java) should supply `Pair` instances to its interface (in reality, through the  adapter's interface).
