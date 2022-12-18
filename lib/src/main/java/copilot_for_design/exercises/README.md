@@ -20,7 +20,7 @@ There are two constraints:
 
 ### Examples
 
-Acceptable/good:
+Sufficient:
 
 * Removing a provided `Car.drive()` method as the solution provides another way to accomplish the same goal (ie., driving the car).
 
@@ -30,7 +30,7 @@ Acceptable/good:
 
 * Removing a redundant parameter from a provided method.
 
-Bad:
+Insufficient:
 
 * Replacing a continuous `price` field with a categorical `priceBin` field (the exact value is lost!).
 
