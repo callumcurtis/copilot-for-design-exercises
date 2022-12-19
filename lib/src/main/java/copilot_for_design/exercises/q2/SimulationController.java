@@ -34,6 +34,6 @@ public class SimulationController {
 
         // TODO: fix this call to moveToPoint() by adapting its interface to
         //  accept goal (a Pair of floats in units of feet)
-        lib.moveToPoint(goal);
+        // lib.moveToPoint(goal);
     }
 }
