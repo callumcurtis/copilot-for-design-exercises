@@ -2,7 +2,7 @@
 
 ## Description
 
-You are designing and implementing the order processing system for a company specializing in kitchen renovations. The company maintains a catalog of available kitchen configuration options, each specifying two appliances: stove and fridge. The company wants you to use the abstract factory pattern to complete the order processing system, supporting two appliance variations: modern and rustic.
+You are designing and implementing the order processing system for a company specializing in kitchen renovations. All renovations include two appliances: fridge and stove. There are two renovation variations: rustic and modern. In the rustic renovation, customers receive a rustic fridge and rustic stove. In the modern renovation, customers receive a modern fridge and modern stove. The company wants you to use the abstract factory pattern to complete the order processing system, supporting the two renovation variations.
 
 ## Criteria
 
