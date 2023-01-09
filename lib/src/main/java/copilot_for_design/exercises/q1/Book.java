@@ -3,8 +3,8 @@ package copilot_for_design.exercises.q1;
 import java.util.List;
 
 /**
- * Represents a book in the bookstore with a one-page titlepage,
- * a dedication, an ordered list of chapters, and an afterword.
+ * Represents a book in the bookstore having a composition relationship
+ * with a titlepage, dedication, ordered list of chapters, and afterword.
  */
 public class Book {
     private final TitlePage titlePage;
