@@ -36,4 +36,11 @@ public class SimulationController {
         //  accept goal (a Pair of floats in units of feet)
         // lib.moveToPoint(goal);
     }
+
+    /**
+     * Main method that creates an instance of SimulationController and calls executeSimulation
+     */
+    public static void main(String[] args) {
+        // TODO
+    }
 }
