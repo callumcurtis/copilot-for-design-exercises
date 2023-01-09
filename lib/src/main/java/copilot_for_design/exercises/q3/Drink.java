@@ -73,4 +73,17 @@ public class Drink {
     public Set<String> getCountriesWhereAvailable() {
         return countriesWhereAvailable;
     }
+
+    public String toString() {
+        return String.format(
+            "Drink: volume=%f, temperature=%f, flavor=%s, price=%s, topping=%s, isSeasonal=%b, countriesWhereAvailable=%s",
+            volume,
+            temperature,
+            flavor,
+            price,
+            topping,
+            isSeasonal,
+            countriesWhereAvailable
+        );
+    }
 }
