@@ -10,7 +10,9 @@
 		"ghcr.io/devcontainers/features/node:1": {
 			"version": "lts"
 		},
-		"ghcr.io/devcontainers/features/git:1": {}
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers-contrib/features/pre-commit:2": {},
+		"ghcr.io/devcontainers/features/python:1": {}
 	},
 	"customizations": {
 		"vscode": {
@@ -18,13 +20,13 @@
 				"GitHub.copilot"
 			]
 		}
-	}
+	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "java -version",
+	"postCreateCommand": "./scripts/init-devcontainer.sh"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
