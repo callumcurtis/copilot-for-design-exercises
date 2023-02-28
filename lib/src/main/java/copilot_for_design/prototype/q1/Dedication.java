@@ -1,4 +1,4 @@
-package copilot_for_design.exercises.q1;
+package copilot_for_design.prototype.q1;
 
 public class Dedication {
     private final int numPages;

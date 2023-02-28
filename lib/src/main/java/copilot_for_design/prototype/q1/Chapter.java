@@ -1,12 +1,12 @@
-package copilot_for_design.exercises.q1;
+package copilot_for_design.prototype.q1;
 
-public class Afterword {
+public class Chapter {
     private final int numPages;
 
-    public Afterword(int numPages) {
+    public Chapter(int numPages) {
         this.numPages = numPages;
     }
-
+    
     public int getNumPages() {
         return numPages;
     }

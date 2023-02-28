@@ -1,4 +1,4 @@
-package copilot_for_design.exercises.q2;
+package copilot_for_design.prototype.q2;
 
 /**
  * Represents a third-party library that helps your application simulate robots.

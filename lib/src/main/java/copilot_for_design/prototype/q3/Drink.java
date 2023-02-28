@@ -1,4 +1,4 @@
-package copilot_for_design.exercises.q3;
+package copilot_for_design.prototype.q3;
 
 import java.math.BigDecimal;
 import java.util.Set;

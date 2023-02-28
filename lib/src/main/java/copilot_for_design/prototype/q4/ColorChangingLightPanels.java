@@ -1,4 +1,4 @@
-package copilot_for_design.exercises.q4;
+package copilot_for_design.prototype.q4;
 
 import java.awt.Color;
 

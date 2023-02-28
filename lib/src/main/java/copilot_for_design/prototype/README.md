@@ -14,7 +14,7 @@ For each question, you should modify the provided code by adding/removing/modify
 
 There are two constraints:
 
-* All solution code must exist within the question's package (`copilot_for_design.exercises.q<X>`, where `X` is the question number).
+* All solution code must exist within the question's package (`copilot_for_design.prototype.q<X>`, where `X` is the question number).
 
 * Any functionality or information in the original code must be preserved somewhere in your solution to the question.
 
