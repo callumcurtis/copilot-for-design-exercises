@@ -2,18 +2,8 @@
 
 ## Description
 
-Starbuzz is having difficulty implementing the drink creation system in its new mobile app. You have been hired as a contractor to clean up the creation process for instances of their `Drink` class by designing and implementing a new builder class that allows `Drink` to be instantiated using any combination of optional parameters (`topping`, `isSeasonal`, and `countriesWhereAvailable`). In other words, a `Drink` should be able to be created without any optional arguments provided, with all optional arguments provided, or with any other subset of optional arguments provided.
+You are designing a remote for controlling devices in your home. Currently, you have a single device you want to control: color-changing light panels. You are planning on adding more devices in the future. There are currently three commands you want to send to the panels: on, change brightness to 10 (dim), and change color to blue. Leverage the command pattern to design a ```RemoteControl``` class that controls devices. Configure the remote to control your color-changing light panels. The remote should be able to undo the three most recent commands issued.
 
 ## Criteria
 
-Add a main method to your builder class demonstrating the creation of a `Drink` with the following fields:
-
-* volume: 243.8
-* temperature: 34.6
-* flavor: "coffee"
-* price: 5.78
-* topping: \<not provided\>
-* isSeasonal: true
-* countriesWhereAvailable: \<not provided\>
-
-Any non-provided fields should default to sensible values.
+Add a main method to your ```RemoteControl``` class demonstrating the construction of a remote, execution of the three color-changing light panel commands (on, change brightness to 10 (dim), and change color to blue), and undoing the three most recent commands issued.

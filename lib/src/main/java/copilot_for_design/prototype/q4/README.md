@@ -2,8 +2,18 @@
 
 ## Description
 
-You are designing a remote for controlling devices in your home. Currently, you have a single device you want to control: color-changing light panels. You are planning on adding more devices in the future. There are currently three commands you want to send to the panels: on, change brightness to 10 (dim), and change color to blue. Leverage the command pattern to design a ```RemoteControl``` class that controls devices. Configure the remote to control your color-changing light panels. The remote should be able to undo the three most recent commands issued.
+You are designing the software for a bookstore. There is a single object structure, `Book`, but the number of operations performable on instances of `Book` is likely to increase indefinitely. You are tasked with using the visitor pattern to support this requirement and implement the first visitor, which should find the total number of pages in the [`chapters`](Chapter.java) and [`dedication`](Dedication.java) (not [`title page`](TitlePage.java) or [`afterword`](Afterword.java)).
 
 ## Criteria
 
-Add a main method to your ```RemoteControl``` class demonstrating the construction of a remote, execution of the three color-changing light panel commands (on, change brightness to 10 (dim), and change color to blue), and undoing the three most recent commands issued.
+Add a main method to your visitor class that creates a book with:
+
+* 7 page dedication
+* 4 chapters
+    * Chapter 1 having 675 pages
+    * Chapter 2 having 98 pages
+    * Chapter 3 having 842 pages
+    * Chapter 4 having 524 pages
+* 37 page afterword
+
+and show that your visitor calculates the correct number of pages.
